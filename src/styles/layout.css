@@ -1,0 +1,13 @@
+
+/* Main layout styles */
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Fix for navbar and footer */
+nav, footer {
+  position: relative;
+  z-index: 50;
+}

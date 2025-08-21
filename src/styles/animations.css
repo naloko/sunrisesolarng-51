@@ -1,0 +1,45 @@
+
+/* Animated background elements */
+@layer base {
+  .animated-bg-element {
+    @apply absolute rounded-full opacity-20 -z-10;
+    background: radial-gradient(circle, var(--primary) 0%, transparent 70%);
+    animation: float 15s infinite alternate ease-in-out;
+  }
+  
+  @keyframes float {
+    0% { transform: translate(0, 0) scale(1); }
+    50% { transform: translate(20px, -20px) scale(1.05); }
+    100% { transform: translate(-20px, 20px) scale(0.95); }
+  }
+}
+
+/* Custom animations */
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes shine {
+  from {
+    background-position: -200% center;
+  }
+  to {
+    background-position: 200% center;
+  }
+}

@@ -1,0 +1,253 @@
+
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "cta": {
+    "quote": "Get A Quote",
+    "explore": "Explore Solutions"
+  },
+  "language": {
+    "english": "English",
+    "chinese": "Chinese",
+    "select": "Select Language"
+  },
+  "hero": {
+    "title": "Innovative Solar Solutions for a Brighter Future",
+    "subtitle": "Harnessing the power of the sun to build a sustainable world",
+    "cta": "Explore Solutions",
+    "oneStop": "One-Stop",
+    "solarSolutions": "Solar Solutions",
+    "description": "Sunrise is dedicated to delivering all-encompassing solar solutions for both residential and commercial sectors across Nigeria.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "common": {
+    "language": "Language",
+    "contactUs": "Contact Us",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "allRightsReserved": "All rights reserved",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "submit": "Submit",
+    "sending": "Sending...",
+    "sentSuccess": "Your message has been sent successfully!",
+    "getBackSoon": "We'll get back to you as soon as possible.",
+    "viewDetails": "View Details",
+    "learnMore": "Learn More",
+    "viewProject": "View Project",
+    "viewAll": "View All"
+  },
+  "contact": {
+    "fullName": "Full Name *",
+    "email": "Email Address *",
+    "phone": "Phone Number",
+    "company": "Company Name",
+    "subject": "Subject *",
+    "message": "Message *",
+    "sendMessage": "Send Message",
+    "selectSubject": "Select a subject",
+    "residential": "Residential Installation",
+    "commercial": "Commercial Installation",
+    "storage": "Energy Storage System",
+    "product": "Product Inquiry",
+    "service": "Service Request",
+    "other": "Other"
+  },
+  "footer": {
+    "company": "Sunrise New Energy Technology Co., Ltd. dedicated to delivering all-encompassing one-stop solar solutions for both residential and commercial & industrial sectors across Nigeria.",
+    "about": "About Us",
+    "products": "Our Products",
+    "solutions": "Solar Solutions",
+    "caseStudies": "Case Studies",
+    "contact": "Contact Us",
+    "residential": "Residential Solutions",
+    "commercial": "Commercial and Industrial Solutions",
+    "cleaning": "Panel Cleaning",
+    "power": "Back-up Power",
+    "sales": "Product Sales",
+    "workingHours": "Mon - Fri: 8:00AM - 5:00PM"
+  },
+  "sections": {
+    "benefits": {
+      "subtitle": "Why Choose Us",
+      "title": "The Sunrise Advantage",
+      "description": "Experience the benefits of choosing Sunrise for your solar energy needs."
+    },
+    "products": {
+      "subtitle": "Our Product Range",
+      "title": "Our Products Range",
+      "description": "Our comprehensive range of solar energy products designed to provide efficient, reliable, and sustainable power solutions for homes and businesses.",
+      "viewAll": "View All Products"
+    },
+    "projects": {
+      "subtitle": "Recent Work",
+      "title": "Featured Projects",
+      "description": "Explore some of our successful solar installations and see the positive impact we're making.",
+      "viewAll": "View All Projects"
+    },
+    "about": {
+      "subtitle": "About Sunrise",
+      "title": "Experience Quality Solar Solutions",
+      "description1": "Sunrise New Energy Technology Co., Ltd., incorporated in Kano State, Nigeria, is dedicated to delivering all-encompassing one-stop solar solutions for both residential and commercial & industrial sectors across Nigeria.",
+      "description2": "Its parent company, Shandong Longguang Tianxu Solar Energy Co., Ltd. is a global leader in advanced solar solutions. With advanced technologies and rich experience, we provide reliable and efficient solar energy solutions.",
+      "cta": "Learn More About Us"
+    },
+    "cta": {
+      "title": "Ready to Harness the Power of the Sun?",
+      "description": "Take the first step towards energy independence and sustainability. Contact us today for a free consultation.",
+      "contact": "Contact Us Now",
+      "learnMore": "Learn More"
+    }
+  },
+  "benefits": {
+    "eco": {
+      "title": "Eco-Friendly",
+      "description": "Reduce your carbon footprint with clean, renewable solar energy that helps protect the environment."
+    },
+    "savings": {
+      "title": "Cost Savings",
+      "description": "Significant reduction in electricity bills, with systems that typically pay for themselves in a few years."
+    },
+    "independence": {
+      "title": "Energy Independence",
+      "description": "Gain control over your energy needs with reduced dependence on the traditional power grid."
+    },
+    "power": {
+      "title": "Reliable Power",
+      "description": "Enjoy uninterrupted power supply even during grid outages with our energy storage solutions."
+    },
+    "maintenance": {
+      "title": "Low Maintenance",
+      "description": "Solar systems require minimal maintenance, with most components designed to last 25+ years."
+    },
+    "support": {
+      "title": "Expert Support",
+      "description": "Access to a team of solar experts for consultation, design, installation, and ongoing support."
+    }
+  },
+  "products": {
+    "panel": {
+      "title": "Solar Panel",
+      "description": "High-efficiency photovoltaic panels that convert sunlight into electricity for your home or business."
+    },
+    "battery": {
+      "title": "Energy Storage Battery",
+      "description": "Advanced battery systems that store excess solar energy for use when the sun isn't shining."
+    },
+    "inverter": {
+      "title": "Inverter",
+      "description": "Converts DC electricity generated by solar panels into AC electricity for your appliances."
+    },
+    "heater": {
+      "title": "Solar Water Heater",
+      "description": "Efficient solar thermal systems that use sunlight to heat water for residential and commercial use."
+    },
+    "inverter1": {
+      "title": "Single Phase S6-EH1P (3-8)K-L-PLUS",
+      "description": "New PLUS model with generator compatibility and microgrid formation for demanding power scenarios."
+    },
+    "inverter2": {
+      "title": "Single Phase S6-EH1P (12-16)K03-NV-YD-L", 
+      "description": "High-power single phase inverter with 20A input current, ideal for high-power PV modules."
+    },
+    "inverter3": {
+      "title": "Three Phase S6-EH3P (8-15)K02-NV-YD-L",
+      "description": "Three-phase inverter supporting unbalanced loads with 290A battery current capability."
+    },
+    "lvInverter": {
+      "title": "Low Voltage Energy Storage Inverter",
+      "description": "Reliable hybrid inverters for residential and light commercial storage."
+    },
+    "hvInverter": {
+      "title": "High Voltage Energy Storage Inverter", 
+      "description": "Scalable, high-density systems for advanced energy storage."
+    }
+  },
+  "projects": {
+    "categories": {
+      "commercial": "Commercial",
+      "residential": "Residential"
+    },
+    "shandongTech": {
+      "title": "Shandong Technology Company 1.75MW",
+      "description": "Rooftop Distributed PV Project - 210 million kWh annual generation, 756 tons coal-saving, 2,094 tons CO₂ reduction."
+    },
+    "shandongCompany": {
+      "title": "Shandong Company 1.75MW",
+      "description": "Rooftop Distributed PV Project - 360 million kWh annual generation, 1,296 tons coal-saving, 3,590 tons CO₂ reduction."
+    },
+    "shandongZeyu": {
+      "title": "Shandong Zeyu New Energy 3.2MW",
+      "description": "Rooftop Distributed PV Project - 356.3 million kWh annual generation, 1,315 tons coal-saving, 3,642 tons CO₂ reduction."
+    }
+  },
+  "about": {
+    "stats": {
+      "experience": "Years of Experience",
+      "projects": "Projects Completed",
+      "team": "Team Members",
+      "co2": "Tons of CO₂ Saved"
+    },
+    "certifications": {
+      "title": "Certified & Trusted",
+      "iso": "ISO 9001 Certified",
+      "warranty": "25-Year Performance Warranty",
+      "grid": "Grid-Tie & Off-Grid Expertise",
+      "safety": "IEC Safety Compliant"
+    },
+    "coreValues": "Our Core Values",
+    "visionValues": "Vision & Values",
+    "valuesSubtitle": "What drives us to deliver reliable, sustainable solar solutions.",
+    "ourVision": "Our Vision",
+    "visionText1": "To accelerate access to clean, affordable energy for homes and businesses across Nigeria.",
+    "visionText2": "We aim to be the most trusted solar partner through quality products, expert engineering, and outstanding service.",
+    "ourValues": "Our Values",
+    "excellence": "Excellence",
+    "excellenceDesc": "We insist on top-tier quality from design to installation and support.",
+    "innovation": "Innovation",
+    "innovationDesc": "We continuously improve with advanced technologies and better ways of working.",
+    "sustainability": "Sustainability",
+    "sustainabilityDesc": "We help customers reduce emissions and build a resilient energy future.",
+    "customer": "Customer First",
+    "customerDesc": "We listen, tailor solutions, and stand by our clients long after installation.",
+    "joinUs": "Join Us",
+    "ctaTitle": "Power Your Future with Sunrise",
+    "ctaSubtitle": "Take the first step toward dependable, sustainable energy today.",
+    "contactCta": "Contact Us",
+    "projectsCta": "View Projects"
+  },
+  "services": {
+    "menu": {
+      "residential": "Residential Solutions",
+      "commercial": "Commercial & Industrial"
+    },
+    "whatWeOffer": "What We Offer",
+    "description": "From initial consultation to installation and maintenance, we provide end-to-end solar energy solutions tailored to your needs.",
+    "residential": {
+      "description": "Custom solar solutions for homes, designed to reduce electricity bills and provide energy independence."
+    },
+    "commercial": {
+      "description": "Large-scale solar solutions for businesses and industries, reducing operational costs and carbon footprint."
+    },
+    "cleaning": {
+      "description": "Professional cleaning services to maintain optimal performance and extend the life of your solar panels."
+    },
+    "backup": {
+      "description": "Reliable energy storage solutions to keep your power on during grid outages or unstable electricity supply."
+    },
+    "sales": {
+      "description": "Quality solar products available for purchase, with expert advice on selecting the right equipment."
+    },
+    "maintenance": {
+      "title": "Maintenance & Repair",
+      "description": "Regular maintenance and prompt repair services to ensure your solar system performs at its best."
+    }
+  }
+}

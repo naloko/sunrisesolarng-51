@@ -1,0 +1,35 @@
+
+/* Language selector styles */
+.language-selector {
+  position: relative;
+}
+
+.language-selector::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: var(--primary);
+  transition: width 0.3s ease;
+}
+
+.language-selector:hover::after,
+.language-selector.active::after {
+  width: 80%;
+}
+
+/* Flag button animations */
+.flag-button {
+  @apply transition-transform duration-300;
+}
+
+.flag-button:hover {
+  @apply transform scale-110;
+}
+
+.flag-button.active {
+  @apply ring-2 ring-primary ring-offset-2;
+}

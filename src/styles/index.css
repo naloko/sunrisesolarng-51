@@ -1,0 +1,18 @@
+
+/* Import Tailwind directives */
+@import './base.css';
+
+/* Import all modular CSS files */
+@import './layout.css';
+@import './hero.css';
+@import './badge.css';
+@import './sections.css';
+@import './cards.css';
+@import './utilities.css';
+@import './effects.css';
+@import './language.css';
+@import './buttons.css';
+@import './animations.css';
+@import './typography.css';
+@import './components.css';
+@import './scrollbar.css';

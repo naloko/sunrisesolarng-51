@@ -1,0 +1,36 @@
+
+/* Text color gradients */
+@layer base {
+  .text-gradient {
+    background: linear-gradient(45deg, var(--text-blue), var(--text-purple));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .text-warm-gradient {
+    background: linear-gradient(45deg, var(--primary), var(--text-orange));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .text-cool-gradient {
+    background: linear-gradient(45deg, var(--text-blue), var(--text-green));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
+
+@layer components {
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-amber-400 bg-clip-text text-transparent;
+  }
+
+  /* Colored blockquotes */
+  blockquote {
+    @apply border-l-4 border-primary pl-4 italic text-gray-700;
+  }
+}

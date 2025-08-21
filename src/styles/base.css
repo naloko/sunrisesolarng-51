@@ -1,0 +1,68 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #e6b323;
+  --primary-dark: #d4a31c;
+  --secondary: #4a5568;
+  --accent: #9F7AEA;
+  --accent-light: #D6BCFA;
+  --success: #48BB78;
+  --warning: #ED8936;
+  --danger: #F56565;
+  --text-blue: #3182ce;
+  --text-purple: #805ad5;
+  --text-orange: #dd6b20;
+  --text-green: #38a169;
+
+  /* Dark mode support */
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 84% 4.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 84% 4.9%;
+  --primary-foreground: 210 40% 98%;
+  --secondary-foreground: 222.2 84% 4.9%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --accent-foreground: 222.2 84% 4.9%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 222.2 84% 4.9%;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-gray-900 antialiased;
+  }
+
+  /* Typography styles */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+
+  h1 {
+    @apply text-blue-600;
+  }
+
+  h2 {
+    @apply text-indigo-600;
+  }
+
+  h3 {
+    @apply text-purple-600;
+  }
+
+  p {
+    @apply text-gray-700 dark:text-gray-200;
+  }
+
+  a {
+    @apply text-primary hover:text-primary-dark transition-colors;
+  }
+}

@@ -1,0 +1,19 @@
+
+/* Utility classes */
+@layer utilities {
+  .text-primary {
+    color: var(--primary);
+  }
+
+  .bg-primary {
+    background-color: var(--primary);
+  }
+
+  .hover\:bg-primary\/90:hover {
+    background-color: rgba(230, 179, 35, 0.9);
+  }
+
+  .bg-primary\/10 {
+    background-color: rgba(230, 179, 35, 0.1);
+  }
+}

@@ -1,0 +1,252 @@
+
+{
+  "navigation": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品展示",
+    "projects": "项目案例",
+    "contact": "联系我们"
+  },
+  "cta": {
+    "quote": "获取报价",
+    "explore": "探索解决方案"
+  },
+  "language": {
+    "english": "英文",
+    "chinese": "中文",
+    "select": "选择语言"
+  },
+  "hero": {
+    "title": "创新太阳能解决方案，创造更美好的未来",
+    "subtitle": "利用太阳能力量，建设可持续发展的世界",
+    "cta": "探索解决方案",
+    "oneStop": "一站式",
+    "solarSolutions": "太阳能解决方案",
+    "description": "Sunrise致力于为尼日利亚的住宅和商业领域提供全方位的太阳能解决方案。",
+    "getStarted": "立即开始",
+    "learnMore": "了解更多"
+  },
+  "common": {
+    "language": "语言",
+    "contactUs": "联系我们",
+    "quickLinks": "快速链接",
+    "ourServices": "我们的服务",
+    "allRightsReserved": "版权所有",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "submit": "提交",
+    "sending": "发送中...",
+    "sentSuccess": "您的消息已成功发送！",
+    "getBackSoon": "我们会尽快回复您。",
+    "viewDetails": "查看详情",
+    "learnMore": "了解更多",
+    "viewProject": "查看项目",
+    "viewAll": "查看全部"
+  },
+  "contact": {
+    "fullName": "姓名 *",
+    "email": "电子邮箱 *",
+    "phone": "电话号码",
+    "company": "公司名称",
+    "subject": "主题 *",
+    "message": "留言 *",
+    "sendMessage": "发送消息",
+    "selectSubject": "请选择主题",
+    "residential": "住宅安装",
+    "commercial": "商业安装",
+    "storage": "能源存储系统",
+    "product": "产品咨询",
+    "service": "服务请求",
+    "other": "其他"
+  },
+  "footer": {
+    "company": "Sunrise新能源技术有限公司致力于为尼日利亚的住宅和商业及工业领域提供全方位的一站式太阳能解决方案。",
+    "about": "关于我们",
+    "products": "我们的产品",
+    "solutions": "太阳能解决方案",
+    "caseStudies": "案例研究",
+    "contact": "联系我们",
+    "residential": "住宅解决方案",
+    "commercial": "商业和工业解决方案",
+    "cleaning": "太阳能板清洁",
+    "power": "备用电源",
+    "sales": "产品销售",
+    "workingHours": "周一至周五: 上午8:00 - 下午5:00"
+  },
+  "sections": {
+    "benefits": {
+      "subtitle": "为什么选择我们",
+      "title": "Sunrise优势",
+      "description": "体验选择Sunrise满足您太阳能需求的优势。"
+    },
+    "products": {
+      "subtitle": "我们的产品系列",
+      "title": "我们的产品系列",
+      "description": "我们全面的太阳能产品系列，为家庭和企业提供高效、可靠和可持续的电力解决方案。",
+      "viewAll": "查看所有产品"
+    },
+    "projects": {
+      "subtitle": "近期项目",
+      "title": "精选项目",
+      "description": "探索我们成功的太阳能安装案例，了解我们带来的积极影响。",
+      "viewAll": "查看所有项目"
+    },
+    "about": {
+      "subtitle": "关于Sunrise",
+      "title": "体验优质太阳能解决方案",
+      "description1": "Sunrise新能源技术有限公司在尼日利亚卡诺州成立，致力于为尼日利亚的住宅和商业及工业领域提供全方位的一站式太阳能解决方案。",
+      "description2": "其母公司山东龙光天旭太阳能有限公司是先进太阳能解决方案的全球领导者。凭借先进技术和丰富经验，我们提供可靠高效的太阳能解决方案。",
+      "cta": "了解更多关于我们"
+    },
+    "cta": {
+      "title": "准备好利用太阳能了吗？",
+      "description": "迈出能源独立和可持续发展的第一步。立即联系我们获取免费咨询。",
+      "contact": "立即联系我们",
+      "learnMore": "了解更多"
+    }
+  },
+  "benefits": {
+    "eco": {
+      "title": "环保",
+      "description": "通过清洁、可再生的太阳能减少碳足迹，有助于保护环境。"
+    },
+    "savings": {
+      "title": "成本节约",
+      "description": "显著降低电费，系统通常在几年内即可收回成本。"
+    },
+    "independence": {
+      "title": "能源独立",
+      "description": "通过减少对传统电网的依赖，获得对能源需求的控制。"
+    },
+    "power": {
+      "title": "可靠电力",
+      "description": "通过我们的能源存储解决方案，即使在停电期间也能享受不间断电力供应。"
+    },
+    "maintenance": {
+      "title": "低维护",
+      "description": "太阳能系统需要的维护极少，大多数组件设计寿命超过25年。"
+    },
+    "support": {
+      "title": "专家支持",
+      "description": "可获得太阳能专家团队的咨询、设计、安装和持续支持。"
+    }
+  },
+  "products": {
+    "panel": {
+      "title": "太阳能板",
+      "description": "高效光伏板，将阳光转化为家庭或企业用电。"
+    },
+    "battery": {
+      "title": "能源存储电池",
+      "description": "先进的电池系统，在没有阳光时存储多余的太阳能以供使用。"
+    },
+    "inverter": {
+      "title": "逆变器",
+      "description": "将太阳能板产生的直流电转换为家用电器使用的交流电。"
+    },
+    "heater": {
+      "title": "太阳能热水器",
+      "description": "高效的太阳能热水系统，利用阳光为住宅和商业用途加热水。"
+    },
+    "inverter1": {
+      "title": "单相S6-EH1P (3-8)K-L-PLUS",
+      "description": "新PLUS型号，具备发电机兼容性和微电网形成功能，适用于高要求电力场景。"
+    },
+    "inverter2": {
+      "title": "单相S6-EH1P (12-16)K03-NV-YD-L",
+      "description": "大功率单相逆变器，20A输入电流，适用于所有大功率光伏组件。"
+    },
+    "inverter3": {
+      "title": "三相S6-EH3P (8-15)K02-NV-YD-L", 
+      "description": "三相逆变器，支持不平衡负载，电池电流可达290A。"
+    },
+    "lvInverter": {
+      "title": "低压储能逆变器",
+      "description": "适用于住宅和轻型商业储能的可靠混合逆变器。"
+    },
+    "hvInverter": {
+      "title": "高压储能逆变器",
+      "description": "用于先进储能的可扩展高密度系统。"
+    }
+  },
+  "projects": {
+    "categories": {
+      "commercial": "商业",
+      "residential": "住宅"
+    },
+    "shandongTech": {
+      "title": "山东科技公司1.75MW",
+      "description": "屋顶分布式光伏项目 - 年发电量2.1亿千瓦时，节约煤炭756吨，减少二氧化碳2,094吨。"
+    },
+    "shandongCompany": {
+      "title": "山东公司1.75MW",
+      "description": "屋顶分布式光伏项目 - 年发电量3.6亿千瓦时，节约煤炭1,296吨，减少二氧化碳3,590吨。"
+    },
+    "shandongZeyu": {
+      "title": "山东泽宇新能源3.2MW",
+      "description": "屋顶分布式光伏项目 - 年发电量3.563亿千瓦时，节约煤炭1,315吨，减少二氧化碳3,642吨。"
+    }
+  },
+  "about": {
+    "stats": {
+      "experience": "年经验",
+      "projects": "已完成项目",
+      "team": "团队成员",
+      "co2": "吨二氧化碳减排"
+    },
+    "certifications": {
+      "title": "认证与信任",
+      "iso": "通过 ISO 9001 认证",
+      "warranty": "25 年性能质保",
+      "grid": "并网/离网专业能力",
+      "safety": "符合 IEC 安全标准"
+    },
+    "coreValues": "核心价值观",
+    "visionValues": "愿景与价值观",
+    "valuesSubtitle": "驱动我们提供可靠、可持续太阳能解决方案的信念。",
+    "ourVision": "我们的愿景",
+    "visionText1": "让尼日利亚的家庭和企业更快获得清洁、可负担的能源。",
+    "visionText2": "通过优质产品、专业工程与卓越服务，成为最值得信赖的太阳能合作伙伴。",
+    "ourValues": "我们的价值观",
+    "excellence": "卓越",
+    "excellenceDesc": "从设计到安装与服务，坚持一流品质。",
+    "innovation": "创新",
+    "innovationDesc": "持续以先进技术与更优方法改进。",
+    "sustainability": "可持续",
+    "sustainabilityDesc": "帮助客户减少排放，构建韧性的能源未来。",
+    "customer": "以客户为先",
+    "customerDesc": "倾听需求，提供定制方案，并在安装后长期相伴。",
+    "joinUs": "加入我们",
+    "ctaTitle": "与Sunrise一起点亮未来",
+    "ctaSubtitle": "立即迈出迈向可靠、可持续能源的第一步。",
+    "contactCta": "联系我们",
+    "projectsCta": "查看项目"
+  },
+  "services": {
+    "menu": {
+      "residential": "住宅解决方案",
+      "commercial": "商业和工业解决方案"
+    },
+    "whatWeOffer": "我们提供的服务",
+    "description": "从初步咨询到安装和维护，我们提供根据您需求定制的端到端太阳能解决方案。",
+    "residential": {
+      "description": "为家庭定制的太阳能解决方案，旨在降低电费并提供能源独立性。"
+    },
+    "commercial": {
+      "description": "为企业和工业提供大规模太阳能解决方案，降低运营成本和碳足迹。"
+    },
+    "cleaning": {
+      "description": "专业清洁服务，保持太阳能板的最佳性能并延长使用寿命。"
+    },
+    "backup": {
+      "description": "可靠的能源存储解决方案，确保在电网故障或电力供应不稳定时保持电力供应。"
+    },
+    "sales": {
+      "description": "提供优质太阳能产品销售，并提供选择合适设备的专业建议。"
+    },
+    "maintenance": {
+      "title": "维护与维修",
+      "description": "定期维护和及时修复服务，确保您的太阳能系统性能最佳。"
+    }
+  }
+}

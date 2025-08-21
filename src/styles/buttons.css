@@ -1,0 +1,31 @@
+
+/* Button Styles */
+@layer base {
+  .glass-button {
+    @apply bg-white/10 backdrop-blur-sm border border-white/20 text-white py-3 px-8 rounded-lg font-medium transition-all hover:bg-white/20;
+  }
+}
+
+/* Call-to-action button enhancement */
+.cta-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-button::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, transparent 50%);
+  opacity: 0;
+  transform: scale(0.5);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.cta-button:hover::after {
+  opacity: 1;
+  transform: scale(1);
+}
