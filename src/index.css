@@ -1,8 +1,13 @@
 
-/* Import base styles with Tailwind directives first */
-@import './styles/base.css';
+/* Critical CSS - loaded first for performance */
+@import './styles/optimized.css';
 
-/* Then import component styles */
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Component styles - loaded after critical CSS */
 @import './styles/layout.css';
 @import './styles/hero.css';
 @import './styles/buttons.css';
@@ -13,6 +18,7 @@
 @import './styles/badge.css';
 @import './styles/sections.css';
 @import './styles/cards.css';
-@import './styles/utilities.css';
 @import './styles/effects.css';
 @import './styles/language.css';
+@import './styles/mobile.css';
+@import './styles/focus.css';
