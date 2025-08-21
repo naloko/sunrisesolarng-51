@@ -7,10 +7,28 @@
   overflow: hidden;
 }
 
-.product-card:hover, .service-card:hover {
-  transform: translateY(-8px) rotateX(2deg);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12), 0 8px 16px rgba(230, 179, 35, 0.15);
-  border-color: rgba(230, 179, 35, 0.3);
+@media (hover: hover) {
+  .product-card:hover, .service-card:hover {
+    transform: translateY(-8px) rotateX(2deg);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12), 0 8px 16px rgba(230, 179, 35, 0.15);
+    border-color: rgba(230, 179, 35, 0.3);
+  }
+
+  .product-card:hover::before, .service-card:hover::before {
+    transform: scaleX(1);
+  }
+
+  .product-card:hover::after, .service-card:hover::after {
+    opacity: 0.4;
+  }
+}
+
+/* Mobile touch states */
+@media (hover: none) {
+  .product-card:active, .service-card:active {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08), 0 4px 8px rgba(230, 179, 35, 0.1);
+  }
 }
 
 .product-card::before, .service-card::before {
@@ -27,10 +45,6 @@
   border-radius: 4px 4px 0 0;
 }
 
-.product-card:hover::before, .service-card:hover::before {
-  transform: scaleX(1);
-}
-
 /* Add gradient border glow effect */
 .product-card::after, .service-card::after {
   content: '';
@@ -43,6 +57,14 @@
   transition: opacity 0.3s ease;
 }
 
-.product-card:hover::after, .service-card:hover::after {
-  opacity: 0.4;
+/* Mobile card improvements */
+@media (max-width: 640px) {
+  .product-card, .service-card {
+    margin-bottom: 1rem;
+  }
+  
+  .product-card img, .service-card img {
+    height: 200px;
+    object-fit: cover;
+  }
 }

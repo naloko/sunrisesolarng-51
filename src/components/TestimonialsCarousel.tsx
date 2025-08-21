@@ -66,15 +66,15 @@ const TestimonialsCarousel = () => {
               style={{ transform: `translateX(-${currentIndex * 100}%)` }}
             >
               {testimonials.map((testimonial) => (
-                <div key={testimonial.id} className="w-full flex-shrink-0 px-8">
-                  <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                <div key={testimonial.id} className="w-full flex-shrink-0 px-4 sm:px-8">
+                  <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300">
                     <div className="flex items-center mb-4">
                       {[...Array(testimonial.rating)].map((_, i) => (
                         <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                       ))}
                     </div>
                     
-                    <blockquote className="text-lg text-gray-700 mb-6 leading-relaxed">
+                    <blockquote className="text-base sm:text-lg text-gray-700 mb-6 leading-relaxed">
                       "{testimonial.content}"
                     </blockquote>
                     
@@ -100,10 +100,10 @@ const TestimonialsCarousel = () => {
             </div>
           </div>
 
-          {/* Navigation buttons */}
+          {/* Navigation buttons - hidden on mobile */}
           <button
             onClick={prevSlide}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 w-12 h-12 bg-white rounded-full shadow-lg border border-gray-200 flex items-center justify-center hover:bg-gray-50 transition-colors z-10"
+            className="hidden sm:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 w-12 h-12 bg-white rounded-full shadow-lg border border-gray-200 items-center justify-center hover:bg-gray-50 transition-colors z-10"
             aria-label="Previous testimonial"
           >
             <ChevronLeft className="w-5 h-5 text-gray-600" />
@@ -111,23 +111,25 @@ const TestimonialsCarousel = () => {
           
           <button
             onClick={nextSlide}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 w-12 h-12 bg-white rounded-full shadow-lg border border-gray-200 flex items-center justify-center hover:bg-gray-50 transition-colors z-10"
+            className="hidden sm:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 w-12 h-12 bg-white rounded-full shadow-lg border border-gray-200 items-center justify-center hover:bg-gray-50 transition-colors z-10"
             aria-label="Next testimonial"
           >
             <ChevronRight className="w-5 h-5 text-gray-600" />
           </button>
 
           {/* Dots indicator */}
-          <div className="flex justify-center mt-8 space-x-2">
+          <div className="flex justify-center mt-6 sm:mt-8 space-x-2">
             {testimonials.map((_, index) => (
               <button
                 key={index}
                 onClick={() => setCurrentIndex(index)}
-                className={`w-3 h-3 rounded-full transition-colors ${
+                className={`w-3 h-3 sm:w-4 sm:h-4 rounded-full transition-colors min-h-[44px] min-w-[44px] flex items-center justify-center ${
                   index === currentIndex ? 'bg-primary' : 'bg-gray-300'
                 }`}
                 aria-label={`Go to testimonial ${index + 1}`}
-              />
+              >
+                <span className={`w-3 h-3 rounded-full ${index === currentIndex ? 'bg-primary' : 'bg-gray-300'}`} />
+              </button>
             ))}
           </div>
         </div>
