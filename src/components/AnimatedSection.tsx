@@ -21,13 +21,25 @@ const AnimatedSection = ({
   once = true,
 }: AnimatedSectionProps) => {
   const [isVisible, setIsVisible] = useState(false);
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    // Check for reduced motion preference
+    const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
+    setPrefersReducedMotion(mediaQuery.matches);
+    
+    const handleChange = () => setPrefersReducedMotion(mediaQuery.matches);
+    mediaQuery.addEventListener('change', handleChange);
+    
+    return () => mediaQuery.removeEventListener('change', handleChange);
+  }, []);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setIsVisible(true);
+          setTimeout(() => setIsVisible(true), prefersReducedMotion ? 0 : delay);
           // Once it's visible and we only want to animate once, stop observing
           if (sectionRef.current && once) {
             observer.unobserve(sectionRef.current);
@@ -53,9 +65,11 @@ const AnimatedSection = ({
         observer.unobserve(sectionRef.current);
       }
     };
-  }, [threshold, once]);
+  }, [threshold, once, delay, prefersReducedMotion]);
 
   const getAnimationClass = () => {
+    if (prefersReducedMotion) return '';
+    
     switch (animation) {
       case 'fade-in':
         return 'animate-fade-in';
@@ -83,11 +97,11 @@ const AnimatedSection = ({
   return (
     <div
       ref={sectionRef}
-      className={`${className} ${isVisible ? getAnimationClass() : 'opacity-0'}`}
+      className={`${className} ${isVisible ? getAnimationClass() : (prefersReducedMotion ? '' : 'opacity-0')}`}
       style={{ 
-        animationDelay: `${delay}ms`,
-        animationDuration: `${duration}ms`,
-        willChange: 'transform, opacity'
+        animationDelay: prefersReducedMotion ? '0ms' : `${delay}ms`,
+        animationDuration: prefersReducedMotion ? '0ms' : `${duration}ms`,
+        willChange: prefersReducedMotion ? 'auto' : 'transform, opacity'
       }}
     >
       {children}

@@ -1,0 +1,67 @@
+/* Enhanced focus styles for accessibility */
+@layer base {
+  /* Skip to content link */
+  .skip-to-content {
+    @apply absolute -top-10 left-4 bg-primary text-white px-4 py-2 rounded-md z-50 opacity-0 focus:opacity-100 focus:top-4 transition-all duration-200;
+  }
+
+  /* Enhanced focus rings */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-background;
+  }
+
+  /* Button focus states */
+  button:focus-visible,
+  [role="button"]:focus-visible {
+    @apply ring-2 ring-primary ring-offset-2 ring-offset-background;
+  }
+
+  /* Link focus states */
+  a:focus-visible {
+    @apply ring-2 ring-primary ring-offset-2 ring-offset-background rounded-sm;
+  }
+
+  /* Form element focus states */
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible {
+    @apply ring-2 ring-primary ring-offset-2 ring-offset-background border-primary;
+  }
+
+  /* Card focus states */
+  .product-card:focus-within,
+  .service-card:focus-within {
+    @apply ring-2 ring-primary ring-offset-2 ring-offset-background;
+  }
+
+  /* Navigation focus states */
+  nav a:focus-visible {
+    @apply bg-primary/10 px-2 py-1 rounded;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  *:focus-visible {
+    @apply ring-4 ring-black;
+  }
+  
+  .dark *:focus-visible {
+    @apply ring-4 ring-white;
+  }
+}
+
+/* Reduced transparency for better contrast */
+@media (prefers-contrast: high) {
+  .bg-white\/10,
+  .bg-black\/10,
+  .bg-primary\/10 {
+    @apply bg-opacity-30;
+  }
+  
+  .text-white\/90,
+  .text-white\/80,
+  .text-white\/60 {
+    @apply text-white;
+  }
+}

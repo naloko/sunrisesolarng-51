@@ -74,7 +74,8 @@ export default {
 				'text-green': 'var(--text-green)'
 			},
 			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
+				sans: ['Inter', 'Noto Sans SC', 'sans-serif'],
+				display: ['Space Grotesk', 'Inter', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -144,6 +145,10 @@ export default {
 					'0%': { transform: 'perspective(400px) rotateX(90deg)', opacity: '0' },
 					'100%': { transform: 'perspective(400px) rotateX(0)', opacity: '1' },
 				},
+				scroll: {
+					'0%': { transform: 'translateX(0)' },
+					'100%': { transform: 'translateX(-50%)' },
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
@@ -157,7 +162,7 @@ export default {
 				'scale-in': 'scale-in 0.5s ease-out forwards',
 				'zoom-in': 'zoom-in 0.5s ease-out forwards',
 				'rotate': 'rotate 0.5s ease-out forwards',
-				'flip': 'flip 0.5s ease-out forwards',
+				'scroll': 'scroll 40s linear infinite',
 			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
