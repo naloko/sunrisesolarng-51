@@ -35,9 +35,8 @@ const HeroSection = () => {
                   {t('hero.oneStop')}
                 </span>
               </AnimatedSection>
-              <br />
               <AnimatedSection animation="slide-in-right" delay={600}>
-                <span className="block mt-2">{t('hero.solarSolutions')}</span>
+                <span className="block">{t('hero.solarSolutions')}</span>
               </AnimatedSection>
             </h1>
           </AnimatedSection>

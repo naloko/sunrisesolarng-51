@@ -19,10 +19,6 @@
 
 /* Mobile navigation adjustments */
 @media (max-width: 767px) {
-  /* Ensure header doesn't overlap content */
-  body {
-    padding-top: calc(env(safe-area-inset-top) + 4rem);
-  }
 
   /* Mobile menu z-index fix */
   .mobile-menu {
